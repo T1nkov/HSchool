@@ -1,0 +1,266 @@
+@font-face {
+  font-family: "Mulish";
+  src: url(./fonts/Mulish-Bold.ttf) format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Mulish";
+  src: url(./fonts/Mulish-Regular.ttf) format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Mulish";
+  src: url(./fonts/Mulish-ExtraBold.ttf) format("truetype");
+  font-weight: 800;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Mulish";
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  width: 1120px;
+  margin: auto;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header h1 {
+  font-weight: 900;
+  font-size: 30px;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header nav p {
+  color: #001a49;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+header nav p:not(:last-child) {
+  padding: 0 37px 0 0;
+}
+
+header .btn {
+  padding: 15px 24px;
+  border-radius: 33px;
+  background: linear-gradient(44deg, #8fbbe5 0%, #3d75bf 100%);
+}
+
+header .btn p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+main {
+  margin: 196px 0 0 0;
+}
+
+main .prewiev {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .prewiev-about {
+  width: 560px;
+  height: 360px;
+}
+
+main .prewiev-about h1 {
+  color: #001a49;
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 68px;
+}
+
+main .prewiev-about p {
+  color: #4f596a;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 20px 0 35px 0;
+}
+
+main .prewiev-about-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 33px;
+  width: 206px;
+  height: 69px;
+  background: linear-gradient(44deg, #8fbbe5 0%, #3d75bf 100%);
+}
+
+main .prewiev-about-btn span {
+  color: #fff;
+  font-family: Mulish;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  /* 150% */
+}
+
+main .prewiev-image {
+  background: url(./src/img/rectamgle.png) no-repeat;
+  background-size: contain;
+  width: 620px;
+  height: 390px;
+}
+
+main .stats {
+  margin: 203px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 21px;
+  border: 1px solid #e7eaeb;
+  position: relative;
+  background: #fff;
+}
+
+main .stats-image {
+  position: absolute;
+  background: url(./src/img/Shape.svg);
+  width: 288px;
+  height: 288px;
+  z-index: -1;
+  top: 58px;
+  left: -119px;
+}
+
+main .stats-stud:not(:last-child) {
+  border-right: 1px solid #e7eaeb;
+}
+
+main .stats-stud {
+  padding: 60px 148px;
+}
+
+main .stats-stud h1 {
+  color: #001a49;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 50px;
+  /* 125% */
+}
+
+main .stats-stud p {
+  color: #4f596a;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+main .advantage {
+  margin: 194px 0 0 0;
+}
+
+main .advantage-header {
+  width: 637px;
+  margin: auto;
+  padding: 0 0 30px 0;
+}
+
+main .advantage-header h1 {
+  color: #001a49;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 56px;
+  /* 121.739% */
+}
+
+main .advantage-header p {
+  color: #4f596a;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  /* 150% */
+}
+
+main .advantage-block:not(:first-child) {
+  margin: 30px 0 0 0;
+}
+
+main .advantage-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 21px;
+  background: #eef7ff;
+  height: 162px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .advantage-block-imag {
+  background: url(./src/img/topiclogo.png) no-repeat;
+  width: 80px;
+  height: 80px;
+  background-size: contain;
+}
+
+main .advantage-block-content h1 {
+  color: #001a49;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 24px;
+  /* 100% */
+}
+
+main .advantage-block-content span {
+  color: #4f596a;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+}
+/*# sourceMappingURL=style.css.map */

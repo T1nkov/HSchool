@@ -1,0 +1,211 @@
+@font-face {
+  font-family: "Mulish";
+  src: url(./fonts/Mulish-Bold.ttf) format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Mulish";
+  src: url(./fonts/Mulish-Regular.ttf) format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Mulish";
+  src: url(./fonts/Mulish-ExtraBold.ttf) format("truetype");
+  font-weight: 800;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish";
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  width: 1120px;
+  margin: auto;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  h1 {
+    font-weight: 900;
+    font-size: 30px;
+  }
+
+  nav {
+    display: flex;
+
+    p {
+      color: #001a49;
+      font-size: 16px;
+      font-weight: 700;
+    }
+    p:not(:last-child) {
+      padding: 0 37px 0 0;
+    }
+  }
+  .btn {
+    padding: 15px 24px;
+    border-radius: 33px;
+    background: linear-gradient(44deg, #8fbbe5 0%, #3d75bf 100%);
+    p {
+      color: #fff;
+      font-size: 16px;
+      font-weight: 700;
+    }
+  }
+}
+main {
+  margin: 196px 0 0 0;
+  .prewiev {
+    display: flex;
+    &-about {
+      width: 560px;
+      height: 360px;
+      h1 {
+        color: #001a49;
+        font-size: 60px;
+        font-weight: 800;
+        line-height: 68px;
+      }
+      p {
+        color: #4f596a;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        margin: 20px 0 35px 0;
+      }
+      &-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 33px;
+        width: 206px;
+        height: 69px;
+        background: linear-gradient(44deg, #8fbbe5 0%, #3d75bf 100%);
+        span {
+          color: #fff;
+          font-family: Mulish;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 30px; /* 150% */
+        }
+      }
+    }
+    &-image {
+      background: url(./src/img/rectamgle.png) no-repeat;
+      background-size: contain;
+      width: 620px;
+      height: 390px;
+    }
+  }
+  .stats {
+    margin: 203px 0 0 0;
+    display: flex;
+    border-radius: 21px;
+    border: 1px solid #e7eaeb;
+    position: relative;
+    background: #fff;
+    &-image {
+      position: absolute;
+      background: url(./src/img/Shape.svg);
+      width: 288px;
+      height: 288px;
+      z-index: -1;
+      top: 58px;
+      left: -119px;
+    }
+    &-stud:not(:last-child) {
+      border-right: 1px solid #e7eaeb;
+    }
+    &-stud {
+      padding: 60px 148px;
+
+      h1 {
+        color: #001a49;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 50px; /* 125% */
+      }
+      p {
+        color: #4f596a;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+  }
+  .advantage {
+      margin: 194px 0 0 0;
+    &-header {
+      width: 637px;
+      margin: auto;
+      padding: 0 0 30px 0;
+      h1 {
+        color: #001a49;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 46px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 56px; /* 121.739% */
+      }
+      p {
+        color: #4f596a;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px; /* 150% */
+      }
+    }
+    &-block:not(:first-child){
+        margin: 30px 0 0 0;
+    }
+    &-block {
+        
+      display: flex;
+      border-radius: 21px;
+      background: #eef7ff;
+      height: 162px;
+      align-items: center;
+      &-imag {
+        background: url(./src/img/topiclogo.png) no-repeat;
+        width: 80px;
+        height: 80px;
+        background-size: contain;
+      }
+      &-content {
+        h1 {
+          color: #001a49;
+          font-family: Mulish;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 800;
+          line-height: 24px; /* 100% */
+        }
+        span {
+          color: #4f596a;
+          font-family: Mulish;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 24px; /* 150% */
+        }
+      }
+    }
+  }
+}
