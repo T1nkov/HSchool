@@ -263,4 +263,76 @@ main .advantage-block-content span {
   line-height: 24px;
   /* 150% */
 }
+
+main .start {
+  margin: 122px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .start h1 {
+  color: #3D75BF;
+  font: 800 100px Mulish;
+  margin: 0 0 40px 0;
+}
+
+main .start h2 {
+  color: #001A49;
+  font: 800 50px Mulish;
+}
+
+main .start-btn {
+  margin: 12px 0 0 0;
+  background: linear-gradient(44deg, #8FBBE5 0%, #3D75BF 100%);
+  padding: 20px 0;
+  border-radius: 33px;
+  width: 206px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 40px 0 0 0;
+}
+
+main .start-btn p {
+  color: #FFF;
+  font: 700 20px Mulish;
+}
+
+footer .left-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .left-title p {
+  color: #3C82F4;
+  font: 800 37px Poppins;
+}
+
+footer .left-title h1 {
+  color: #001A49;
+  font: 800 37px Mulish;
+}
+
+footer .left-title-email p {
+  color: #707070;
+  font: 500 27px Mulish;
+}
 /*# sourceMappingURL=style.css.map */

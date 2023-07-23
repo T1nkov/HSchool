@@ -9,6 +9,7 @@
   src: url(./fonts/Mulish-Regular.ttf) format("truetype");
   font-weight: 400;
 }
+
 @font-face {
   font-family: "Mulish";
   src: url(./fonts/Mulish-ExtraBold.ttf) format("truetype");
@@ -28,10 +29,12 @@ body {
   width: 1120px;
   margin: auto;
 }
+
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
   h1 {
     font-weight: 900;
     font-size: 30px;
@@ -45,14 +48,17 @@ header {
       font-size: 16px;
       font-weight: 700;
     }
+
     p:not(:last-child) {
       padding: 0 37px 0 0;
     }
   }
+
   .btn {
     padding: 15px 24px;
     border-radius: 33px;
     background: linear-gradient(44deg, #8fbbe5 0%, #3d75bf 100%);
+
     p {
       color: #fff;
       font-size: 16px;
@@ -60,19 +66,24 @@ header {
     }
   }
 }
+
 main {
   margin: 196px 0 0 0;
+
   .prewiev {
     display: flex;
+
     &-about {
       width: 560px;
       height: 360px;
+
       h1 {
         color: #001a49;
         font-size: 60px;
         font-weight: 800;
         line-height: 68px;
       }
+
       p {
         color: #4f596a;
         font-size: 20px;
@@ -80,6 +91,7 @@ main {
         line-height: 30px;
         margin: 20px 0 35px 0;
       }
+
       &-btn {
         display: flex;
         align-items: center;
@@ -88,16 +100,19 @@ main {
         width: 206px;
         height: 69px;
         background: linear-gradient(44deg, #8fbbe5 0%, #3d75bf 100%);
+
         span {
           color: #fff;
           font-family: Mulish;
           font-size: 20px;
           font-style: normal;
           font-weight: 700;
-          line-height: 30px; /* 150% */
+          line-height: 30px;
+          /* 150% */
         }
       }
     }
+
     &-image {
       background: url(./src/img/rectamgle.png) no-repeat;
       background-size: contain;
@@ -105,6 +120,7 @@ main {
       height: 390px;
     }
   }
+
   .stats {
     margin: 203px 0 0 0;
     display: flex;
@@ -112,6 +128,7 @@ main {
     border: 1px solid #e7eaeb;
     position: relative;
     background: #fff;
+
     &-image {
       position: absolute;
       background: url(./src/img/Shape.svg);
@@ -121,9 +138,11 @@ main {
       top: 58px;
       left: -119px;
     }
+
     &-stud:not(:last-child) {
       border-right: 1px solid #e7eaeb;
     }
+
     &-stud {
       padding: 60px 148px;
 
@@ -134,8 +153,10 @@ main {
         font-size: 40px;
         font-style: normal;
         font-weight: 800;
-        line-height: 50px; /* 125% */
+        line-height: 50px;
+        /* 125% */
       }
+
       p {
         color: #4f596a;
         text-align: center;
@@ -147,12 +168,15 @@ main {
       }
     }
   }
+
   .advantage {
-      margin: 194px 0 0 0;
+    margin: 194px 0 0 0;
+
     &-header {
       width: 637px;
       margin: auto;
       padding: 0 0 30px 0;
+
       h1 {
         color: #001a49;
         text-align: center;
@@ -160,8 +184,10 @@ main {
         font-size: 46px;
         font-style: normal;
         font-weight: 800;
-        line-height: 56px; /* 121.739% */
+        line-height: 56px;
+        /* 121.739% */
       }
+
       p {
         color: #4f596a;
         text-align: center;
@@ -169,25 +195,30 @@ main {
         font-size: 20px;
         font-style: normal;
         font-weight: 400;
-        line-height: 30px; /* 150% */
+        line-height: 30px;
+        /* 150% */
       }
     }
-    &-block:not(:first-child){
-        margin: 30px 0 0 0;
+
+    &-block:not(:first-child) {
+      margin: 30px 0 0 0;
     }
+
     &-block {
-        
+
       display: flex;
       border-radius: 21px;
       background: #eef7ff;
       height: 162px;
       align-items: center;
+
       &-imag {
         background: url(./src/img/topiclogo.png) no-repeat;
         width: 80px;
         height: 80px;
         background-size: contain;
       }
+
       &-content {
         h1 {
           color: #001a49;
@@ -195,15 +226,82 @@ main {
           font-size: 24px;
           font-style: normal;
           font-weight: 800;
-          line-height: 24px; /* 100% */
+          line-height: 24px;
+          /* 100% */
         }
+
         span {
           color: #4f596a;
           font-family: Mulish;
           font-size: 16px;
           font-style: normal;
           font-weight: 400;
-          line-height: 24px; /* 150% */
+          line-height: 24px;
+          /* 150% */
+        }
+      }
+    }
+  }
+
+  .start {
+    margin: 122px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h1 {
+      color: #3D75BF;
+      font: 800 100px Mulish;
+      margin: 0 0 40px 0;
+    }
+
+    h2 {
+      color: #001A49;
+      font: 800 50px Mulish;
+
+    }
+
+    &-btn {
+      margin: 12px 0 0 0;
+      background: linear-gradient(44deg, #8FBBE5 0%, #3D75BF 100%);
+      padding: 20px 0;
+      border-radius: 33px;
+      width: 206px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 40px 0 0 0;
+
+      p {
+        color: #FFF;
+        font: 700 20px Mulish;
+      }
+    }
+  }
+}
+
+footer {
+  .left {
+    &-title {
+      display: flex;
+
+      p {
+        color: #3C82F4;
+        font: 800 37px Poppins;
+      }
+
+      h1 {
+        color: #001A49;
+        font: 800 37px Mulish;
+
+      }
+
+      &-email {
+        p {
+          color: #707070;
+          font: 500 27px Mulish;
+
         }
       }
     }
